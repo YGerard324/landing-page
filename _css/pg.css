@@ -30,6 +30,7 @@ body{
 main{
     margin-left: 5%;
     margin-right: 5%;
+    bottom: 0px;
 }
 
 /*Seção quem somos*/
@@ -46,7 +47,10 @@ main{
 /*SEÇÃO SERVIÇOS*/
 #blocos{
     margin: 5px;
-    margin-bottom: 100px;
+}
+
+#card-text{
+    padding-left: 10px;
 }
 
 .main-title{
@@ -72,7 +76,7 @@ main{
 }
 
 .icones{
-    color: #F2762E;
+    color: #f2ce2e;
     font-size: 41px;
     padding-bottom: 10px;
 }
@@ -87,7 +91,7 @@ main{
 }
 
 .btn{
-    background-color: #F2762E;
+    background-color: #d3b428;
     color: #fff;
 }
 
@@ -123,8 +127,15 @@ main{
     font-weight: bold;
     padding: 20px;
 }
+
+
+.row{
+    padding: 0px;
+}
+
 .pf{
    padding: 5%;
+   padding-bottom: 5%;
 }
 
 /*FOOTER*/
